@@ -78,7 +78,7 @@ bullet_centerY2 = bulletY2 + (4 / 2)
 # asteroid
 asteroidX = random.randint(30, 465)
 asteroidY = 15
-ast_rad = 6
+ast_rad = random.randint(6, 8)
 ast_centerX = asteroidX + (ast_rad / 2)
 ast_centerY = asteroidY + (ast_rad / 2)
 asteroid = False
